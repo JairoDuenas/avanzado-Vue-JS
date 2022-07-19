@@ -1,14 +1,19 @@
 <template>
   <div class="home">
-    <h1>Home Page</h1>
+    <HomeTitle />
+    <MainForm />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import MainForm from './HomeForm'
+import HomeTitle from './HomeTitle'
 
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Home'
+  name: 'HomeView',
+  components: {
+    HomeTitle,
+    MainForm
+  }
 }
 </script>
