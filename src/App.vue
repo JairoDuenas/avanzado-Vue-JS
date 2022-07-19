@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <nav>
+    <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    </div>
+    <router-view />
   </div>
 </template>
 
 <style lang="stylus">
-#app
-  font-family Avenir, Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+#app {
+  padding: 60px 0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff; // Le ponemos un color de letra blanco para que resalte
+  background-color: #15202b; // Le cambiamos el color de fondo por un azul marino oscuro
+}
 </style>
