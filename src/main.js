@@ -3,6 +3,8 @@ import Vue from 'vue'
 import './plugins/BootstrapVue'
 // Vue Font-Awesome
 import './plugins/FontAwesone'
+// Custom directives
+import './directives'
 
 import App from './App.vue'
 import router from './router'
